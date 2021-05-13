@@ -1,13 +1,13 @@
-# android_device_samsung_gt510wifi
+# android_device_samsung_gt5note10wifi
 
-## Device tree for Samsung Galaxy Tab (A) SM-T550 [gt510wifi]
+## Device tree for Samsung Galaxy Tab (A) SM-P550 [gt5note10wifi]
 
 Basic   | Spec Sheet
 -------:|:-------------------------
 CPU     | Qualcomm MSM8916 Quad-core 1.2 GHz ARM® Cortex™ A53
 CHIPSET | Qualcomm MSM8916 Snapdragon 410
 GPU     | Adreno 306
-Memory  | 1.5 GB
+Memory  | 2.0 GB
 Shipped Android Version | 6.0.1
 Storage | 16 GB
 MicroSD | Up to 256 GB

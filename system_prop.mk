@@ -1,3 +1,14 @@
+# Google Play Store
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.opengles.version=196608
+
+# turn onscreen nav
+PRODUCT_PROPERTY_OVERRIDES += \
+	qemu.hw.mainkeys=0
+
+PRODUCT_PACKAGES += \
+	FlipFlap
+
 # CABL
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.qualcomm.cabl=0
