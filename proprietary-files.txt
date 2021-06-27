@@ -52,7 +52,6 @@ lib/libarcsoft_panorama_burstcapture.so
 lib/libarcsoft_selfie_camera_lite.so
 lib/libawb_algo_front.so
 lib/libawb_algo_rear_al.so
-lib/libcamera_metadata.so
 lib/libcodecsolution.so
 lib/libjpeg.so
 lib/libmmcamera2_stats_algorithm.so
