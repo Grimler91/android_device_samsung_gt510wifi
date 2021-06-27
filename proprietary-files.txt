@@ -41,7 +41,7 @@ lib/lib_SoundBooster_ver610.so
 lib/soundfx/libaudiosaplus_sec.so
 
 # Camera
-lib/hw/camera.vendor.msm8916.so
+lib/hw/camera.vendor.msm8916.so:vendor/lib/hw/camera.vendor.msm8916.so
 lib/libaec_algo_front.so
 lib/libaec_algo_rear.so
 lib/libaf_algo_rear.so
@@ -120,4 +120,4 @@ vendor/lib/libqmi_encdec.so
 vendor/lib/libsmemlog.so
 
 # Sensors
-lib/hw/sensors.vendor.msm8916.so
+lib/hw/sensors.vendor.msm8916.so:vendor/lib/hw/sensors.vendor.msm8916.so
