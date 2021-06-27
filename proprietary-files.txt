@@ -1,4 +1,4 @@
-# Samsung Package Version T550XXU1CQL5_T550OJV1CQK3_TUR (unless otherwise specified and/or tagged)
+# Samsung Package Version T550XXU1CRI1_T550NEE1CRI1_NEE (unless otherwise specified and/or tagged)
 
 # ACDBs
 etc/Bluetooth_cal.acdb
@@ -17,7 +17,6 @@ lib/libaudio_soundtrigger.so
 lib/libfloatingfeature.so
 lib/libsamsungearcare.so
 lib/libsamsungeffect.so
-lib/libSamsungPkcs11Wrapper.so
 lib/libSamsungPostProcess.so
 lib/libsamsungpowersound.so
 lib/libSamsungPreProcess.so
@@ -38,9 +37,10 @@ lib/lib_SoundAlive_play_plus_ver127a.so
 lib/lib_SoundAlive_SRC384_ver300.so
 lib/lib_SoundBooster_ver610.so
 lib/soundfx/libaudiosaplus_sec.so
+vendor/lib/libSamsungPkcs11Wrapper.so
 
 # Camera
-lib/hw/camera.vendor.msm8916.so:vendor/lib/hw/camera.vendor.msm8916.so
+lib/hw/camera.msm8916.so:vendor/lib/hw/camera.vendor.msm8916.so
 lib/libaec_algo_front.so
 lib/libaec_algo_rear.so
 lib/libaf_algo_rear.so
@@ -102,7 +102,7 @@ lib/libril.so
 lib/librilutils.so
 
 # Qualcomm framework
-lib/lib-sec-disp.so
+vendor/lib/lib-sec-disp.so
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
@@ -118,4 +118,4 @@ vendor/lib/libqmi_encdec.so
 vendor/lib/libsmemlog.so
 
 # Sensors
-lib/hw/sensors.vendor.msm8916.so:vendor/lib/hw/sensors.vendor.msm8916.so
+lib/hw/sensors.msm8916.so:vendor/lib/hw/sensors.vendor.msm8916.so
