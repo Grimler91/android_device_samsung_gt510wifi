@@ -27,7 +27,6 @@ lib/libsamsungSoundbooster_pgb.so
 lib/libsamsungVoipResampler.so
 lib/libsecaudioinfo.so
 lib/libSoundAlive_VSP_ver315b_arm.so
-lib/libtinyalsa.so
 lib/libtinycompress.so
 lib/lib_DNSe_EP_ver216c.so
 lib/lib_PreGainBooster_ver105.so
