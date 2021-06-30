@@ -1,4 +1,4 @@
-# Samsung Package Version T550XXU1CRI1_T550NEE1CRI1_NEE (unless otherwise specified and/or tagged)
+# Samsung Package Version T550XXU1CQL5_T550OJV1CQK3_TUR (unless otherwise specified and/or tagged)
 
 # ACDBs
 etc/Bluetooth_cal.acdb
@@ -17,6 +17,7 @@ lib/libaudio_soundtrigger.so
 lib/libfloatingfeature.so
 lib/libsamsungearcare.so
 lib/libsamsungeffect.so
+lib/libSamsungPkcs11Wrapper.so
 lib/libSamsungPostProcess.so
 lib/libsamsungpowersound.so
 lib/libSamsungPreProcess.so
@@ -26,6 +27,7 @@ lib/libsamsungSoundbooster_pgb.so
 lib/libsamsungVoipResampler.so
 lib/libsecaudioinfo.so
 lib/libSoundAlive_VSP_ver315b_arm.so
+lib/libtinyalsa.so
 lib/libtinycompress.so
 lib/lib_DNSe_EP_ver216c.so
 lib/lib_PreGainBooster_ver105.so
@@ -37,10 +39,9 @@ lib/lib_SoundAlive_play_plus_ver127a.so
 lib/lib_SoundAlive_SRC384_ver300.so
 lib/lib_SoundBooster_ver610.so
 lib/soundfx/libaudiosaplus_sec.so
-vendor/lib/libSamsungPkcs11Wrapper.so
 
 # Camera
-lib/hw/camera.msm8916.so:vendor/lib/hw/camera.vendor.msm8916.so
+lib/hw/camera.vendor.msm8916.so
 lib/libaec_algo_front.so
 lib/libaec_algo_rear.so
 lib/libaf_algo_rear.so
@@ -51,6 +52,7 @@ lib/libarcsoft_panorama_burstcapture.so
 lib/libarcsoft_selfie_camera_lite.so
 lib/libawb_algo_front.so
 lib/libawb_algo_rear_al.so
+lib/libcamera_metadata.so
 lib/libcodecsolution.so
 lib/libjpeg.so
 lib/libmmcamera2_stats_algorithm.so
@@ -102,7 +104,7 @@ lib/libril.so
 lib/librilutils.so
 
 # Qualcomm framework
-vendor/lib/lib-sec-disp.so
+lib/lib-sec-disp.so
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
@@ -118,4 +120,4 @@ vendor/lib/libqmi_encdec.so
 vendor/lib/libsmemlog.so
 
 # Sensors
-lib/hw/sensors.msm8916.so:vendor/lib/hw/sensors.vendor.msm8916.so
+lib/hw/sensors.vendor.msm8916.so
